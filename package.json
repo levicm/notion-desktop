@@ -8,7 +8,6 @@
     "dist": "electron-builder --linux AppImage"
   },
   "build": {
-    "name": "Notion Desktop",
     "appId": "com.github.levicm.notiondesktop",
     "linux": {
       "target": "AppImage",
