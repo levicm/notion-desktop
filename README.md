@@ -1,6 +1,7 @@
 # Notion Desktop
 
 Notion Desktop is a cross-platform desktop application that allows you to use Notion directly on your computer, making it easier to chat with friends and family while working.
+Based on Tanmoy Ganguly [notion-desktop](https://github.com/xanmoy/notion-desktop) work.
 
 ![Image](https://github.com/levicm/notion-desktop/blob/main/screenshots/notion-desktop.jpeg)
 
@@ -25,13 +26,13 @@ Notion Desktop is a cross-platform desktop application that allows you to use No
 
 ```bash
 git clone https://github.com/levicm/notion-desktop.git
-cd Notion-desktop
+cd notion-desktop
 ```
 
 2. **Install dependencies**: Ensure that you have all the necessary dependencies installed.
 
 ```bash
-   npm instal
+   npm install
 ```
 
 3. Start the application:
@@ -57,6 +58,13 @@ cd dist
 ```bash
 chmod +x ./Notion-desktop_1.0.3_amd64.AppImage 
 ```
+
+### AppImage Launcher
+
+You can integrate the AppImage through AppImage Launcher (as [Gear Lever](https://github.com/mijorus/gearlever)).
+
+![Image](https://github.com/levicm/notion-desktop/blob/main/screenshots/gear-lever.png)
+
 
 ## ↩️ **Uninstallation Steps**
 
