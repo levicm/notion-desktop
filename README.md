@@ -2,7 +2,7 @@
 
 Notion Desktop is a cross-platform desktop application that allows you to use Notion directly on your computer, making it easier to chat with friends and family while working.
 
-![Image](https://github.com/xanmoy/notion-desktop/blob/main/screenshots/notion-desktop.jpeg)
+![Image](https://github.com/levicm/notion-desktop/blob/main/screenshots/notion-desktop.jpeg)
 
 ## 🛠 **Features**
 
@@ -15,20 +15,16 @@ Notion Desktop is a cross-platform desktop application that allows you to use No
 
 ---
 
-![Image](https://github.com/xanmoy/notion-desktop/blob/main/screenshots/image1.png)
+![Image](https://github.com/levicm/notion-desktop/blob/main/screenshots/image1.png)
 
 ## 📦 **Installation**
-
-```bash
-sudo snap install Notion-desktop
-```
 
 ### Build From Source
 
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/xanmoy/notion-desktop.git
+git clone https://github.com/levicm/notion-desktop.git
 cd Notion-desktop
 ```
 
@@ -44,40 +40,38 @@ cd Notion-desktop
 npm start
 ```
 
-4. **Build the application**: Run the following command to create a Snap package of the application.
+4. **Build the application**: Run the following command to create a AppImage package of the application.
 
 ```bash
 npm run dist
 ```
 
-5. **Change to the dist directory**: Navigate to the dist directory where the Snap package is located.
+5. **Change to the dist directory**: Navigate to the dist directory where the AppImage package is located.
 
 ```bash
 cd dist
 ```
 
-6. **Install the Snap package**: Use the following command to install the Snap package. The `--dangerous` flag allows the installation of locally built packages.
+6. **Make it executable**: Use the following command to make it executable.
 
 ```bash
-sudo snap install --dangerous ./Notion-desktop_1.0.3_amd64.snap 
+chmod +x ./Notion-desktop_1.0.3_amd64.AppImage 
 ```
 
 ## ↩️ **Uninstallation Steps**
 
-Remove the Snap package: To uninstall the Notion Desktop application, run the following command:
+Since the software is never installed, there is no need to ‘uninstall’ it. Just delete the associated AppImage file and your software is removed from the system.
 
-```bash
-sudo snap remove Notion-desktop
-```
+If you integrated the AppImage through AppImage Launcher (as [Gear Lever](https://github.com/mijorus/gearlever)), you can right-click on the application and select Remove AppImage from the system option.
 
 ## 📖 **Usage Instructions**
 
 ### **Launching the App**:
 
-   After installation, open Notion Desktop using:
+   Once you have made the AppImage file executable, just double-click on it to run it, or execute :
 
 ```bash
-   notion-desktop
+   ./Notion-desktop_1.0.3_amd64.AppImage
 ```
 
 ## 🤝 **Contributing**

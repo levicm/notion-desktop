@@ -3,12 +3,12 @@
 We welcome contributions to make **Notion Desktop** even better! Here's how you can contribute:  
 
 1. **Report Issues**:  
-   - Found a bug or have a feature request? Open an issue on our [GitHub Issues page](https://github.com/xanmoy/notion-desktop/issues).  
+   - Found a bug or have a feature request? Open an issue on our [GitHub Issues page](https://github.com/levicm/notion-desktop/issues).  
 
 2. **Fork the Repository**:  
    - Clone the project to your local machine:  
      ```bash
-     git clone https://github.com/xanmoy/notion-desktop.git
+     git clone https://github.com/levicm/notion-desktop.git
      ```  
 
 3. **Make Changes**:  
