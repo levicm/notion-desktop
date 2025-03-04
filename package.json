@@ -1,6 +1,8 @@
 {
   "name": "notion-desktop",
-  "version": "0.1.0",
+  "title": "Notion Desktop",
+  "productName": "Notion Desktop",
+  "version": "0.1.1",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
